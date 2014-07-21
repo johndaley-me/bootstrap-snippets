@@ -1,0 +1,39 @@
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>bootstrap jumbotron</Title>
+    <Author>John Daley</Author>
+    <Shortcut>bsjumbo</Shortcut>
+    <Description>Markup snippet for bootstrap jumbotron</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>container</ID>
+        <ToolTip>container</ToolTip>
+        <Default>container-fluid</Default>
+      </Literal>
+      <Literal>
+        <ID>width</ID>
+        <ToolTip>width</ToolTip>
+        <Default>col-md-9</Default>
+      </Literal>
+      <Literal>
+        <ID>h1</ID>
+        <ToolTip>h1</ToolTip>
+        <Default>Title</Default>
+      </Literal>
+      <Literal>
+        <ID>content</ID>
+        <ToolTip>content</ToolTip>
+        <Default>content</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="html">
+      <![CDATA[<div class="jumbotron"><div class="$container$"><div class="row"><div class="$width$">
+      <h1>$h1$</h1><p>$content$</p></div></div></div></div>$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,37 @@
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>bootstrap button</Title>
+    <Author>John Daley</Author>
+    <Shortcut>bsbtn</Shortcut>
+    <Description>Markup snippet for bootstrap button</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+      <SnippetType>SurroundsWith</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <ToolTip>type</ToolTip>
+        <Default>button</Default>
+      </Literal>
+      <Literal>
+        <ID>class</ID>
+        <ToolTip>class</ToolTip>
+        <Default>default</Default>
+      </Literal>
+      <Literal>
+        <ID>size</ID>
+        <ToolTip>size</ToolTip>
+        <Default>btn-lg</Default>
+      </Literal>
+      <Literal>
+        <ID>selected</ID>
+        <ToolTip>content</ToolTip>
+        <Default>Submit</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="html"><![CDATA[<button type="$type$" class="btn btn-$class$ $size$">$selected$</button>$end$]]></Code>
+  </Snippet>
+</CodeSnippet>

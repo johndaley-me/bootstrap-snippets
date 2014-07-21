@@ -1,0 +1,26 @@
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>bootstrap anchor with tooltip</Title>
+    <Author>John Daley</Author>
+    <Shortcut>bsatt</Shortcut>
+    <Description>Markup snippet for anchor that includes Bootstrap tooltip attributes</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>href</ID>
+        <ToolTip>href</ToolTip>
+        <Default>#</Default>
+      </Literal>
+      <Literal>
+        <ID>title</ID>
+        <ToolTip>title</ToolTip>
+        <Default>TODO</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="html"><![CDATA[<a href="$href$" data-toggle="tooltip" title="$title$">$end$</a>]]></Code>
+  </Snippet>
+</CodeSnippet>
